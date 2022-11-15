@@ -91,7 +91,7 @@
             document.write("Tổng bằng " + total)
         </script>  -->
     <!-- Bài 7 -->
-    <script>
+    <!-- <script>
         for(let i=1;i<=100; i++){
             if(i%5==0 && i%3==0){
                 document.write(i+" FizzBuzz")
@@ -106,7 +106,26 @@
                     document.write("<br>")
                 }
         }
-    </script> 
+    </script>  -->
+    <!-- Bài 8 -->
+    <button onclick="guess()">Click me</button>
+    <script>
+        function guess(){
+            let a=parseInt(prompt("Input fist number"));
+            let b=parseInt(prompt("Input second number"));
+            let c="";
+            for(i=a;i<=b;i++){
+                c=Math.floor(Math.random()*b)+a;
+            }
+            let d=parseInt(prompt("Input the number that you choose"));
+            if(c==d){
+                document.write("You guess right !")
+            }
+            else{
+                document.write("Wrong ! One more try")
+            }
 
+        }
+    </script>
 </body>
 </html>
