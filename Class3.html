@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- Bài 1 -->
+    <!-- <p id="demo2"></p>
+    <script>
+        let i;
+        for(i=1;i<100;i++){
+           document.write(i) 
+           document.write("<br>")
+        }    
+        if (i=99){
+            alert("Đã hoàn thành "+ i)
+        }
+    </script> -->
+<!-- Bài 2 -->
+    <!-- <script>
+        let tem=parseInt(prompt("Vui lòng nhập nhiệt độ F"))
+        if (tem>100){
+            document.write("Vui lòng giảm nhiệt độ")
+        } else if(tem<20){
+            document.write("Vui lòng tăng nhiệt độ")
+        }
+    </script> -->
+<!-- Bài 3 -->
+    <!-- <script>
+     const number = parseInt(prompt('Enter the number of terms: '));
+     let n1 = 0, n2 = 1, nextTerm;
+     document.write('Fibonacci Series:');
+     document.write("<br>");
+     for (let i = 1; i <= number; i++) {
+     document.write(n1); 
+     document.write("<br>");
+     nextTerm = n1 + n2;
+     n1 = n2;
+     n2 = nextTerm; 
+     }
+    </script> -->
+ <!-- Bài 4  -->
+        <!-- <script>
+            // let i=1;
+            // let n1=1;
+            // let n2=1; 
+            // let nextTerm="";
+            // while (i++) {
+            //     nextTerm= n1 + n2;
+            //     n1 = n2;
+            //     n2 = nextTerm;
+            //     if(n1%5==0) {
+            //     document.write("Số Fibonacci đầu tiên chia hết cho 5 là " + n1)
+            //     break;
+            // }
+            // }
+        // </script> -->
+<!-- Bài 5 -->
+        <!-- <script>
+            let n1 = 0, n2 = 1, nextTerm;
+            let total=0;
+            for (let i = 1; i <= 5; i++) {
+            document.write(n1); 
+            document.write("<br>");
+            nextTerm = n1 + n2;
+            total=total+n1;
+            n1 = n2;
+            n2 = nextTerm; 
+
+     }
+            document.write("Tổng là " + total);
+        </script> -->
+<!-- Bài 6 -->
+        <!-- <script>
+            let count=0, total=0
+            let i=1
+            let dayso=""
+            while(i++){
+                if(i%7==0){
+                    // dayso += i+" "
+                    total+=i
+                    count++
+                    if(count==30)
+                    break
+                }
+            }
+            // document.write(dayso+"<br>")
+            document.write("Tổng bằng " + total)
+        </script>  -->
+    <!-- Bài 7 -->
+    <script>
+        for(let i=1;i<=100; i++){
+            if(i%5==0 && i%3==0){
+                document.write(i+" FizzBuzz")
+                document.write("<br>")
+            }
+            else if(i%5==0){
+                document.write(i+" Buzz")
+                document.write("<br>")
+            }
+                else if(i%3==0){
+                    document.write(i+" Fizz")
+                    document.write("<br>")
+                }
+        }
+    </script> 
+
+</body>
+</html>
