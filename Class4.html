@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <!-- Bài 1 -->
+     <!-- <script>
+     const number = parseInt(prompt('Enter the number of terms: '));
+     let n1 = 0, n2 = 1, nextTerm;
+     document.write('Fibonacci Series:');
+     document.write("<br>");
+     for (let i = 1; i <= number; i++) {
+     document.write(n1); 
+     document.write("<br>");
+     nextTerm = n1 + n2;
+     n1 = n2;
+     n2 = nextTerm; 
+     }
+    </script>  -->
+    <!-- Bài 2 -->
+    <!-- <script>
+        let n=parseInt(prompt("Vui lòng nhập số bạn muốn tính giai thừa"))
+        let giaithua=1;
+        // let i=1;
+        // while(i++){
+        //     giaithua=giaithua*i;
+        //     if(i==n)
+        //     break
+        // }
+        for (let i=1; i<=n; i++){
+            giaithua=giaithua*i
+        }
+        document.write(giaithua)
+    </script> -->
+    <!-- Bài 3a -->
+    <!-- <script>
+        for (let i=0; i<5;i++){
+            for(let j=0;j<=i;j++){
+                document.write("*")
+            }
+            document.write("<br>")
+        }
+        document.write("<br>");
+
+        for(let x=5; x>0; x--){
+            for(let y=1;y<=x;y++){
+                document.write("*")
+            }
+            document.write("<br>");
+        }
+    </script> -->
+    <!-- Bài 4 -->
+        <script>
+        for (let i=0; i<8;i++){
+            for(let j=0;j<12;j++){
+                if(i==0||j==0||i==7||j==11){
+                document.write("*")
+                } else{
+                    document.write("&nbsp&nbsp")
+                }
+
+            }
+            document.write("<br>")
+        }
+         </script>
+        <!-- Bài 5 -->
+        <!-- <script>
+        function month1() {
+            let a = parseInt(prompt("Vui long nhap so tien muon gui: (VND)"));
+            let b = a * 6 / 1200;
+            let c = a + b;
+            document.getElementById("total").innerHTML = "Tong ca goc lan lai la: " + c + " VND";
+        }
+
+        function month6() {
+            let a = parseInt(prompt("Vui long nhap so tien muon gui: (VND)"));
+            let c = "";
+            for ( let i = 1; i <=6 ; i++ ) {
+                let b = a * 7 / 1200;
+                c = a + b;
+                console.log(c);
+                a = c;
+            }
+            document.getElementById("total").innerHTML = "Tong ca goc lan lai la: " + c + " VND";
+        }
+
+        function month12() {
+            let a = parseInt(prompt("Vui long nhap so tien muon gui: (VND)"));
+            let c = "";
+            for ( let i = 1; i <=12 ; i++ ) {
+                let b = a * 8 / 1200;
+                c = a + b;
+                console.log(c);
+                a = c;
+            }
+            document.getElementById("total").innerHTML = "Tong ca goc lan lai la: " + c + " VND";
+        }
+    </script>
+Bài 6 (Vẽ trái tim)  -->
+
+</body>
+</html>
